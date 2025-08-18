@@ -16,9 +16,8 @@ func productExceptSelf(nums []int) []int {
 
 	switch countZero {
 	case 0:
-		productExceptSelf = nil
-		for _, v := range nums {
-			productExceptSelf = append(productExceptSelf, productOfAllExceptZero/v)
+		for i, v := range nums {
+			productExceptSelf[i] = productOfAllExceptZero / v
 		}
 	case 1:
 		for k, v := range nums {
