@@ -20,11 +20,11 @@ func productExceptSelf(nums []int) []int {
 			productExceptSelf[i] = productOfAllExceptZero / v
 		}
 	case 1:
-		for k, v := range nums {
+		for i, v := range nums {
 			if v != 0 {
 				continue
 			}
-			productExceptSelf[k] = productOfAllExceptZero
+			productExceptSelf[i] = productOfAllExceptZero
 		}
 	}
 
