@@ -5,7 +5,7 @@ import (
 )
 
 func longestConsecutive(nums []int) int {
-	if len(nums) == 0 || nums == nil {
+	if nums == nil || len(nums) == 0 {
 		return 0
 	}
 	// Sort the array
