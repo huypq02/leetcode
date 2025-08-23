@@ -43,14 +43,12 @@ func (this *MinStack) GetMin() int {
 
 func main() {
 	obj := Constructor()
-	fmt.Println(obj)
 
-	obj.Push(1)
-	obj.Push(2)
-	fmt.Println(obj)
+	obj.Push(-2)
+	obj.Push(0)
+	obj.Push(-3)
+	fmt.Println("Min:", obj.GetMin()) // -3
 	obj.Pop()
-	param3 := obj.Top()
-	fmt.Println(param3)
-	param4 := obj.GetMin()
-	fmt.Println(param4)
+	fmt.Println("Top:", obj.Top())    // 0
+	fmt.Println("Min:", obj.GetMin()) // -2
 }
