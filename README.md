@@ -44,6 +44,7 @@ The repository is organized into the following categories:
 
 ### 📚 Stack
 
+- **[Evaluate Reverse Polish Notation](Stack/evaluate-reverse-polish-notation/)** - Stack-based expression evaluation with custom stack implementation
 - **[Min Stack](Stack/min-stack/)** - Stack data structure with constant-time minimum retrieval
 
 ### 🔤 String
@@ -159,7 +160,7 @@ go build main.go
 | Arrays         | 16    | Two Sum, Three Sum, Valid Sudoku           |
 | Hash Tables    | 1     | Count Good Substrings                      |
 | Linked Lists   | 1     | Add Two Numbers                            |
-| Stacks         | 1     | Min Stack, Valid Parentheses               |
+| Stacks         | 2     | Evaluate RPN, Min Stack, Valid Parentheses |
 | Trees          | 1     | Balanced Binary Tree                       |
 | Strings        | 2     | Valid Parentheses, K-Constraint Substrings |
 | Math           | 2     | GCD of Strings, Date to Binary             |
