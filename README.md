@@ -22,6 +22,7 @@ The repository is organized into the following categories:
 - **[Three Sum](Arrays/three-sum/)** - Two-pointer technique for triplet finding
 - **[Top K Frequent Elements](Arrays/top-k-frequent-elements/)** - Frequency analysis and sorting
 - **[Two Sum](Arrays/two-sum/)** - Hash map solution for pair sum problems
+- **[Two Sum II - Input Array Is Sorted](Arrays/two-sum-ii-input-array-is-sorted/)** - Two-pointer technique on sorted arrays
 - **[Valid Anagram](Arrays/valid-anagram/)** - Character frequency comparison
 - **[Valid Sudoku](Arrays/valid-sudoku/)** - 2D array validation with complex rules
 
@@ -44,12 +45,15 @@ The repository is organized into the following categories:
 
 ### 📚 Stack
 
+- **[Daily Temperatures](Stack/daily-temperatures/)** - Monotonic stack for next greater element problems
 - **[Evaluate Reverse Polish Notation](Stack/evaluate-reverse-polish-notation/)** - Stack-based expression evaluation with custom stack implementation
 - **[Min Stack](Stack/min-stack/)** - Stack data structure with constant-time minimum retrieval
 
 ### 🔤 String
 
 - **[Count K-Constraint Substrings](String/count-k-constraint-substrings/)** - Sliding window technique for substring counting
+- **[Generate Parentheses](String/generate-parentheses/)** - Backtracking algorithm for combinatorial generation
+- **[Valid Palindrome](String/valid-palindrome/)** - Two-pointer technique with string preprocessing
 - **[Valid Parentheses](String/valid-paretheses/)** - Stack-based bracket matching
 
 ### 🌳 Tree
@@ -155,16 +159,16 @@ go build main.go
 
 ## 📊 Problem Categories by Data Structure
 
-| Data Structure | Count | Examples                                   |
-| -------------- | ----- | ------------------------------------------ |
-| Arrays         | 16    | Two Sum, Three Sum, Valid Sudoku           |
-| Hash Tables    | 1     | Count Good Substrings                      |
-| Linked Lists   | 1     | Add Two Numbers                            |
-| Stacks         | 2     | Evaluate RPN, Min Stack, Valid Parentheses |
-| Trees          | 1     | Balanced Binary Tree                       |
-| Strings        | 2     | Valid Parentheses, K-Constraint Substrings |
-| Math           | 2     | GCD of Strings, Date to Binary             |
-| Matrix         | 1     | Valid Matrix Check                         |
+| Data Structure | Count | Examples                                                  |
+| -------------- | ----- | --------------------------------------------------------- |
+| Arrays         | 17    | Two Sum, Two Sum II, Three Sum, Valid Sudoku              |
+| Hash Tables    | 1     | Count Good Substrings                                     |
+| Linked Lists   | 1     | Add Two Numbers                                           |
+| Stacks         | 3     | Daily Temperatures, Evaluate RPN, Min Stack               |
+| Trees          | 1     | Balanced Binary Tree                                      |
+| Strings        | 4     | Generate Parentheses, Valid Palindrome, Valid Parentheses |
+| Math           | 2     | GCD of Strings, Date to Binary                            |
+| Matrix         | 1     | Valid Matrix Check                                        |
 
 ## 🎯 Algorithm Patterns
 
