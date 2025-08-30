@@ -21,7 +21,6 @@ The repository is organized into the following categories:
 - **[Product of Array Except Self](Arrays/product-of-array-except-self/)** - Array manipulation without division
 - **[Three Sum](Arrays/three-sum/)** - Two-pointer technique for triplet finding
 - **[Top K Frequent Elements](Arrays/top-k-frequent-elements/)** - Frequency analysis and sorting
-- **[Two Sum](Arrays/two-sum/)** - Hash map solution for pair sum problems
 - **[Two Sum II - Input Array Is Sorted](Arrays/two-sum-ii-input-array-is-sorted/)** - Two-pointer technique on sorted arrays
 - **[Valid Anagram](Arrays/valid-anagram/)** - Character frequency comparison
 - **[Valid Sudoku](Arrays/valid-sudoku/)** - 2D array validation with complex rules
@@ -29,6 +28,7 @@ The repository is organized into the following categories:
 ### 🗂️ Hash Table
 
 - **[Count Good Substrings](Hash-Table/count-good-substring/)** - Substring analysis with distinct characters (Sliding Window)
+- **[Two Sum](Hash-Table/two-sum/)** - Hash map for O(1) lookups in pair sum problems
 
 ### 🔗 Linked List
 
@@ -161,8 +161,8 @@ go build main.go
 
 | Data Structure | Count | Examples                                                  |
 | -------------- | ----- | --------------------------------------------------------- |
-| Arrays         | 17    | Two Sum, Two Sum II, Three Sum, Valid Sudoku              |
-| Hash Tables    | 1     | Count Good Substrings                                     |
+| Arrays         | 16    | Two Sum II, Three Sum, Valid Sudoku, Product of Array     |
+| Hash Tables    | 2     | Two Sum, Count Good Substrings                            |
 | Linked Lists   | 1     | Add Two Numbers                                           |
 | Stacks         | 3     | Daily Temperatures, Evaluate RPN, Min Stack               |
 | Trees          | 1     | Balanced Binary Tree                                      |
