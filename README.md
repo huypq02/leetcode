@@ -8,7 +8,7 @@ The repository is organized into the following categories:
 
 ### 🔢 Arrays
 
-- **[Best Time to Buy and Sell Stock](Arrays/best-time-to-buy-and-sell-stock/)** - Stock trading optimization
+- **[Best Time to Buy and Sell Stock](Arrays/best-time-to-buy-and-sell-stock/)** - Two-pointer technique for maximum profit optimization
 - **[Contains Duplicate](Arrays/contains-duplicate/)** - Duplicate detection in arrays
 - **[Contains Nearby Duplicate](Arrays/contains-nearby-duplicate/)** - Proximity-based duplicate detection
 - **[Defuse the Bomb](Arrays/defuse-the-bomb/)** - Circular array manipulation (Sliding Window)
