@@ -64,6 +64,10 @@ The repository is organized into the following categories:
 
 - **[Find Balanced Binary Tree](Tree/find-balanced-btree/)** - Tree traversal and balance checking
 
+### ↔️ Two Pointers
+
+- **[Container With Most Water](Two-Pointers/container-with-most-water/)** - Two-pointer technique for maximum area between lines
+
 ## 🛠️ Technical Features
 
 ### Programming Language
@@ -166,6 +170,7 @@ go build main.go
 | Data Structure | Count | Examples                                                  |
 | -------------- | ----- | --------------------------------------------------------- |
 | Arrays         | 16    | Two Sum II, Three Sum, Valid Sudoku, Product of Array     |
+| Two Pointers   | 1     | Container With Most Water                                 |
 | Hash Tables    | 2     | Two Sum, Substrings of Size Three                         |
 | Binary Search  | 1     | Binary Search                                             |
 | Linked Lists   | 1     | Add Two Numbers                                           |
