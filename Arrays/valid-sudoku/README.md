@@ -1,6 +1,6 @@
-# 36. Valid Sudoku
+# Valid Sudoku
 
-**Problem**[LeetCode 36 - Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)
+**Problem** [LeetCode 36 - Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)
 
 **Medium**
 
