@@ -25,9 +25,13 @@ The repository is organized into the following categories:
 - **[Valid Anagram](Arrays/valid-anagram/)** - Character frequency comparison
 - **[Valid Sudoku](Arrays/valid-sudoku/)** - 2D array validation with complex rules
 
+### 🔍 Binary Search
+
+- **[Binary Search](Binary-Search/binary-search/)** - Classic O(log n) search in sorted arrays
+
 ### 🗂️ Hash Table
 
-- **[Count Good Substrings](Hash-Table/count-good-substring/)** - Substring analysis with distinct characters (Sliding Window)
+- **[Substrings of Size Three with Distinct Characters](Hash-Table/substrings-of-size-three-with-distinct-characters/)** - Fixed-size window for unique character substrings
 - **[Two Sum](Hash-Table/two-sum/)** - Hash map for O(1) lookups in pair sum problems
 
 ### 🔗 Linked List
@@ -162,7 +166,8 @@ go build main.go
 | Data Structure | Count | Examples                                                  |
 | -------------- | ----- | --------------------------------------------------------- |
 | Arrays         | 16    | Two Sum II, Three Sum, Valid Sudoku, Product of Array     |
-| Hash Tables    | 2     | Two Sum, Count Good Substrings                            |
+| Hash Tables    | 2     | Two Sum, Substrings of Size Three                         |
+| Binary Search  | 1     | Binary Search                                             |
 | Linked Lists   | 1     | Add Two Numbers                                           |
 | Stacks         | 3     | Daily Temperatures, Evaluate RPN, Min Stack               |
 | Trees          | 1     | Balanced Binary Tree                                      |
