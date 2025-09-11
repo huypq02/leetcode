@@ -37,6 +37,9 @@ The repository is organized into the following categories:
 ### 🔗 Linked List
 
 - **[Add Two Numbers](Linked-List/add-two-number/)** - Linked list arithmetic operations
+- **[Linked List Cycle](Linked-List/linked-list-cycle/)** - Floyd's cycle detection algorithm
+- **[Merge Two Sorted Lists](Linked-List/merge-two-sorted-lists/)** - Iterative linked list merging
+- **[Reverse Linked List](Linked-List/reverse-linked-list/)** - In-place linked list reversal
 
 ### 🧮 Math
 
@@ -49,9 +52,14 @@ The repository is organized into the following categories:
 
 ### 📚 Stack
 
+- **[Car Fleet](Stack/car-fleet/)** - Stack-based simulation of cars on a road
 - **[Daily Temperatures](Stack/daily-temperatures/)** - Monotonic stack for next greater element problems
 - **[Evaluate Reverse Polish Notation](Stack/evaluate-reverse-polish-notation/)** - Stack-based expression evaluation with custom stack implementation
 - **[Min Stack](Stack/min-stack/)** - Stack data structure with constant-time minimum retrieval
+
+### 📉 Monotonic Stack
+
+- **[Final Prices With a Special Discount in a Shop](Monotonic%20Stack/final-prices-with-a-special-discount-in-a-shop/)** - Next smaller element pattern
 
 ### 🔤 String
 
@@ -62,7 +70,10 @@ The repository is organized into the following categories:
 
 ### 🌳 Tree
 
-- **[Find Balanced Binary Tree](Tree/find-balanced-btree/)** - Tree traversal and balance checking
+- **[Balanced Binary Tree](Tree/balanced-binary-tree/)** - Tree balance validation
+- **[Diameter of Binary Tree](Tree/diameter-of-binary-tree/)** - Maximum path length calculation
+- **[Invert Binary Tree](Tree/invert-binary-tree/)** - Tree mirroring operation
+- **[Maximum Depth of Binary Tree](Tree/maximum-depth-of-binary-tree/)** - Recursive tree height calculation
 
 ### ↔️ Two Pointers
 
@@ -167,18 +178,19 @@ go build main.go
 
 ## 📊 Problem Categories by Data Structure
 
-| Data Structure | Count | Examples                                                  |
-| -------------- | ----- | --------------------------------------------------------- |
-| Arrays         | 16    | Two Sum II, Three Sum, Valid Sudoku, Product of Array     |
-| Two Pointers   | 1     | Container With Most Water                                 |
-| Hash Tables    | 2     | Two Sum, Substrings of Size Three                         |
-| Binary Search  | 1     | Binary Search                                             |
-| Linked Lists   | 1     | Add Two Numbers                                           |
-| Stacks         | 3     | Daily Temperatures, Evaluate RPN, Min Stack               |
-| Trees          | 1     | Balanced Binary Tree                                      |
-| Strings        | 4     | Generate Parentheses, Valid Palindrome, Valid Parentheses |
-| Math           | 2     | GCD of Strings, Date to Binary                            |
-| Matrix         | 1     | Valid Matrix Check                                        |
+| Data Structure  | Count | Examples                                                   |
+| --------------- | ----- | ---------------------------------------------------------- |
+| Arrays          | 16    | Two Sum II, Three Sum, Valid Sudoku, Product of Array      |
+| Two Pointers    | 1     | Container With Most Water                                  |
+| Hash Tables     | 2     | Two Sum, Substrings of Size Three                          |
+| Binary Search   | 1     | Binary Search                                              |
+| Linked Lists    | 4     | Add Two Numbers, Linked List Cycle, Merge Two Sorted Lists |
+| Stacks          | 4     | Car Fleet, Daily Temperatures, Evaluate RPN, Min Stack     |
+| Monotonic Stack | 1     | Final Prices With a Special Discount                       |
+| Trees           | 4     | Balanced Binary Tree, Diameter of Binary Tree              |
+| Strings         | 4     | Generate Parentheses, Valid Palindrome, Valid Parentheses  |
+| Math            | 2     | GCD of Strings, Date to Binary                             |
+| Matrix          | 1     | Valid Matrix Check                                         |
 
 ## 🎯 Algorithm Patterns
 
