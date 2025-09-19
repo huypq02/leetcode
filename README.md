@@ -21,6 +21,7 @@ The repository is organized into the following categories:
 - **[Product of Array Except Self](Arrays/product-of-array-except-self/)** - Array manipulation without division
 - **[Three Sum](Arrays/three-sum/)** - Two-pointer technique for triplet finding
 - **[Top K Frequent Elements](Arrays/top-k-frequent-elements/)** - Frequency analysis and sorting
+- **[Trapping Rain Water](Arrays/trapping-rain-water/)** - Two-pointer technique for water trapping optimization
 - **[Two Sum II - Input Array Is Sorted](Arrays/two-sum-ii-input-array-is-sorted/)** - Two-pointer technique on sorted arrays
 - **[Valid Anagram](Arrays/valid-anagram/)** - Character frequency comparison
 - **[Valid Sudoku](Arrays/valid-sudoku/)** - 2D array validation with complex rules
@@ -28,6 +29,9 @@ The repository is organized into the following categories:
 ### 🔍 Binary Search
 
 - **[Binary Search](Binary-Search/binary-search/)** - Classic O(log n) search in sorted arrays
+- **[Find Minimum in Rotated Sorted Array](Binary-Search/find-minimum-in-rotated-sorted-array/)** - Binary search in rotated sorted array
+- **[Koko Eating Bananas](Binary-Search/koko-eating-bananas/)** - Binary search for optimization problems
+- **[Search in Rotated Sorted Array](Binary-Search/search-in-rotated-sorted-array/)** - Modified binary search for rotated arrays
 
 ### 🗂️ Hash Table
 
@@ -49,6 +53,7 @@ The repository is organized into the following categories:
 ### 📊 Matrix
 
 - **[Check Valid Matrix](Matrix/check-valid/)** - Matrix validation algorithms
+- **[Search a 2D Matrix](Matrix/search-a-2d-matrix/)** - Binary search in 2D matrix
 
 ### 📚 Stack
 
@@ -74,6 +79,8 @@ The repository is organized into the following categories:
 - **[Diameter of Binary Tree](Tree/diameter-of-binary-tree/)** - Maximum path length calculation
 - **[Invert Binary Tree](Tree/invert-binary-tree/)** - Tree mirroring operation
 - **[Maximum Depth of Binary Tree](Tree/maximum-depth-of-binary-tree/)** - Recursive tree height calculation
+- **[Same Tree](Tree/same-tree/)** - Tree comparison and structural equality
+- **[Subtree of Another Tree](Tree/subtree-of-another-tree/)** - Subtree matching algorithm
 
 ### ↔️ Two Pointers
 
@@ -178,19 +185,19 @@ go build main.go
 
 ## 📊 Problem Categories by Data Structure
 
-| Data Structure  | Count | Examples                                                   |
-| --------------- | ----- | ---------------------------------------------------------- |
-| Arrays          | 16    | Two Sum II, Three Sum, Valid Sudoku, Product of Array      |
-| Two Pointers    | 1     | Container With Most Water                                  |
-| Hash Tables     | 2     | Two Sum, Substrings of Size Three                          |
-| Binary Search   | 1     | Binary Search                                              |
-| Linked Lists    | 4     | Add Two Numbers, Linked List Cycle, Merge Two Sorted Lists |
-| Stacks          | 4     | Car Fleet, Daily Temperatures, Evaluate RPN, Min Stack     |
-| Monotonic Stack | 1     | Final Prices With a Special Discount                       |
-| Trees           | 4     | Balanced Binary Tree, Diameter of Binary Tree              |
-| Strings         | 4     | Generate Parentheses, Valid Palindrome, Valid Parentheses  |
-| Math            | 2     | GCD of Strings, Date to Binary                             |
-| Matrix          | 1     | Valid Matrix Check                                         |
+| Data Structure  | Count | Examples                                                    |
+| --------------- | ----- | ----------------------------------------------------------- |
+| Arrays          | 17    | Two Sum II, Three Sum, Valid Sudoku, Trapping Rain Water    |
+| Two Pointers    | 1     | Container With Most Water                                   |
+| Hash Tables     | 2     | Two Sum, Substrings of Size Three                           |
+| Binary Search   | 4     | Binary Search, Koko Eating Bananas, Search in Rotated Array |
+| Linked Lists    | 4     | Add Two Numbers, Linked List Cycle, Merge Two Sorted Lists  |
+| Stacks          | 4     | Car Fleet, Daily Temperatures, Evaluate RPN, Min Stack      |
+| Monotonic Stack | 1     | Final Prices With a Special Discount                        |
+| Trees           | 6     | Balanced Binary Tree, Same Tree, Subtree of Another Tree    |
+| Strings         | 4     | Generate Parentheses, Valid Palindrome, Valid Parentheses   |
+| Math            | 2     | GCD of Strings, Date to Binary                              |
+| Matrix          | 2     | Valid Matrix Check, Search a 2D Matrix                      |
 
 ## 🎯 Algorithm Patterns
 
