@@ -32,6 +32,7 @@ The repository is organized into the following categories:
 - **[Find Minimum in Rotated Sorted Array](Binary-Search/find-minimum-in-rotated-sorted-array/)** - Binary search in rotated sorted array
 - **[Koko Eating Bananas](Binary-Search/koko-eating-bananas/)** - Binary search for optimization problems
 - **[Search in Rotated Sorted Array](Binary-Search/search-in-rotated-sorted-array/)** - Modified binary search for rotated arrays
+- **[Time Based Key-Value Store](Binary-Search/time-based-key-value-store/)** - Binary search for time-based data retrieval
 
 ### 🗂️ Hash Table
 
@@ -65,6 +66,7 @@ The repository is organized into the following categories:
 ### 📉 Monotonic Stack
 
 - **[Final Prices With a Special Discount in a Shop](Monotonic%20Stack/final-prices-with-a-special-discount-in-a-shop/)** - Next smaller element pattern
+- **[Largest Rectangle in Histogram](Monotonic%20Stack/largest-rectangle-in-histogram/)** - Stack-based area calculation with monotonic properties
 
 ### 🔤 String
 
@@ -185,19 +187,19 @@ go build main.go
 
 ## 📊 Problem Categories by Data Structure
 
-| Data Structure  | Count | Examples                                                    |
-| --------------- | ----- | ----------------------------------------------------------- |
-| Arrays          | 17    | Two Sum II, Three Sum, Valid Sudoku, Trapping Rain Water    |
-| Two Pointers    | 1     | Container With Most Water                                   |
-| Hash Tables     | 2     | Two Sum, Substrings of Size Three                           |
-| Binary Search   | 4     | Binary Search, Koko Eating Bananas, Search in Rotated Array |
-| Linked Lists    | 4     | Add Two Numbers, Linked List Cycle, Merge Two Sorted Lists  |
-| Stacks          | 4     | Car Fleet, Daily Temperatures, Evaluate RPN, Min Stack      |
-| Monotonic Stack | 1     | Final Prices With a Special Discount                        |
-| Trees           | 6     | Balanced Binary Tree, Same Tree, Subtree of Another Tree    |
-| Strings         | 4     | Generate Parentheses, Valid Palindrome, Valid Parentheses   |
-| Math            | 2     | GCD of Strings, Date to Binary                              |
-| Matrix          | 2     | Valid Matrix Check, Search a 2D Matrix                      |
+| Data Structure  | Count | Examples                                                       |
+| --------------- | ----- | -------------------------------------------------------------- |
+| Arrays          | 17    | Two Sum II, Three Sum, Valid Sudoku, Trapping Rain Water       |
+| Two Pointers    | 1     | Container With Most Water                                      |
+| Hash Tables     | 2     | Two Sum, Substrings of Size Three                              |
+| Binary Search   | 5     | Binary Search, Koko Eating Bananas, Time-Based Key-Value Store |
+| Linked Lists    | 4     | Add Two Numbers, Linked List Cycle, Merge Two Sorted Lists     |
+| Stacks          | 4     | Car Fleet, Daily Temperatures, Evaluate RPN, Min Stack         |
+| Monotonic Stack | 2     | Final Prices With Discount, Largest Rectangle in Histogram     |
+| Trees           | 6     | Balanced Binary Tree, Same Tree, Subtree of Another Tree       |
+| Strings         | 4     | Generate Parentheses, Valid Palindrome, Valid Parentheses      |
+| Math            | 2     | GCD of Strings, Date to Binary                                 |
+| Matrix          | 2     | Valid Matrix Check, Search a 2D Matrix                         |
 
 ## 🎯 Algorithm Patterns
 
