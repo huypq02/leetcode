@@ -27,7 +27,7 @@ func (this *TimeMap) Get(key string, timestamp int) string {
 	}
 
 	result := ""
-	// Using Binary search because al the timestamps timestamp of set are strictly increasing
+	// Using Binary search because all the timestamps of set are strictly increasing
 	left, right := 0, len(entries)-1 // Set the left and right pointers
 	for left <= right {
 		mid := left + (right-left)/2            // Set the middle pointer to binary search
