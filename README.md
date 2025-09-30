@@ -42,8 +42,13 @@ The repository is organized into the following categories:
 ### 🔗 Linked List
 
 - **[Add Two Numbers](Linked-List/add-two-number/)** - Linked list arithmetic operations
+- **[Add Two Numbers](Linked-List/add-two-numbers/)** - Linked list arithmetic operations
+- **[Copy List with Random Pointer](Linked-List/copy-list-with-random-pointer/)** - Deep copying of complex linked structure
 - **[Linked List Cycle](Linked-List/linked-list-cycle/)** - Floyd's cycle detection algorithm
+- **[LRU Cache](Linked-List/lru-cache/)** - Linked list and hashmap implementation for cache
 - **[Merge Two Sorted Lists](Linked-List/merge-two-sorted-lists/)** - Iterative linked list merging
+- **[Remove Nth Node From End of List](Linked-List/remove-nth-node-from-end-of-list/)** - Two-pointer technique for node removal
+- **[Reorder List](Linked-List/reorder-list/)** - Multiple linked list operations combined
 - **[Reverse Linked List](Linked-List/reverse-linked-list/)** - In-place linked list reversal
 
 ### 🧮 Math
@@ -80,6 +85,7 @@ The repository is organized into the following categories:
 - **[Balanced Binary Tree](Tree/balanced-binary-tree/)** - Tree balance validation
 - **[Diameter of Binary Tree](Tree/diameter-of-binary-tree/)** - Maximum path length calculation
 - **[Invert Binary Tree](Tree/invert-binary-tree/)** - Tree mirroring operation
+- **[Lowest Common Ancestor of a Binary Search Tree](Tree/lowest-common-ancestor-of-a-binary-search-tree/)** - BST property-based traversal
 - **[Maximum Depth of Binary Tree](Tree/maximum-depth-of-binary-tree/)** - Recursive tree height calculation
 - **[Same Tree](Tree/same-tree/)** - Tree comparison and structural equality
 - **[Subtree of Another Tree](Tree/subtree-of-another-tree/)** - Subtree matching algorithm
@@ -93,6 +99,7 @@ The repository is organized into the following categories:
 ### ↔️ Two Pointers
 
 - **[Container With Most Water](Two-Pointers/container-with-most-water/)** - Two-pointer technique for maximum area between lines
+- **[Find the Duplicate Number](Two-Pointers/find-the-duplicate-number/)** - Floyd's cycle detection in array form
 
 ## 🛠️ Technical Features
 
@@ -196,14 +203,14 @@ go build main.go
 | Data Structure  | Count | Examples                                                        |
 | --------------- | ----- | --------------------------------------------------------------- |
 | Arrays          | 17    | Two Sum II, Three Sum, Valid Sudoku, Trapping Rain Water        |
-| Two Pointers    | 1     | Container With Most Water                                       |
+| Two Pointers    | 2     | Container With Most Water, Find the Duplicate Number            |
 | Hash Tables     | 2     | Two Sum, Substrings of Size Three                               |
 | Binary Search   | 5     | Binary Search, Koko Eating Bananas, Time-Based Key-Value Store  |
 | Sliding Window  | 3     | Longest Substring, Permutation in String, Character Replacement |
-| Linked Lists    | 4     | Add Two Numbers, Linked List Cycle, Merge Two Sorted Lists      |
+| Linked Lists    | 9     | Add Two Numbers, LRU Cache, Remove Nth Node, Reorder List       |
 | Stacks          | 4     | Car Fleet, Daily Temperatures, Evaluate RPN, Min Stack          |
 | Monotonic Stack | 2     | Final Prices With Discount, Largest Rectangle in Histogram      |
-| Trees           | 6     | Balanced Binary Tree, Same Tree, Subtree of Another Tree        |
+| Trees           | 7     | Balanced Binary Tree, LCA of BST, Same Tree                     |
 | Strings         | 4     | Generate Parentheses, Valid Palindrome, Valid Parentheses       |
 | Math            | 2     | GCD of Strings, Date to Binary                                  |
 | Matrix          | 2     | Valid Matrix Check, Search a 2D Matrix                          |
