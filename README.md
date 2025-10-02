@@ -83,6 +83,8 @@ The repository is organized into the following categories:
 ### 🌳 Tree
 
 - **[Balanced Binary Tree](Tree/balanced-binary-tree/)** - Tree balance validation
+- **[Binary Tree Level Order Traversal](Tree/binary-tree-level-order-traversal/)** - BFS approach for level-by-level tree traversal
+- **[Binary Tree Right Side View](Tree/binary-tree-right-side-view/)** - Modified BFS to view tree from right side
 - **[Diameter of Binary Tree](Tree/diameter-of-binary-tree/)** - Maximum path length calculation
 - **[Invert Binary Tree](Tree/invert-binary-tree/)** - Tree mirroring operation
 - **[Lowest Common Ancestor of a Binary Search Tree](Tree/lowest-common-ancestor-of-a-binary-search-tree/)** - BST property-based traversal
@@ -210,7 +212,7 @@ go build main.go
 | Linked Lists    | 9     | Add Two Numbers, LRU Cache, Remove Nth Node, Reorder List       |
 | Stacks          | 4     | Car Fleet, Daily Temperatures, Evaluate RPN, Min Stack          |
 | Monotonic Stack | 2     | Final Prices With Discount, Largest Rectangle in Histogram      |
-| Trees           | 7     | Balanced Binary Tree, LCA of BST, Same Tree                     |
+| Trees           | 9     | Balanced Binary Tree, Level Order Traversal, Right Side View    |
 | Strings         | 4     | Generate Parentheses, Valid Palindrome, Valid Parentheses       |
 | Math            | 2     | GCD of Strings, Date to Binary                                  |
 | Matrix          | 2     | Valid Matrix Check, Search a 2D Matrix                          |
