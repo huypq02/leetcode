@@ -31,6 +31,7 @@ The repository is organized into the following categories:
 - **[Binary Search](Binary-Search/binary-search/)** - Classic O(log n) search in sorted arrays
 - **[Find Minimum in Rotated Sorted Array](Binary-Search/find-minimum-in-rotated-sorted-array/)** - Binary search in rotated sorted array
 - **[Koko Eating Bananas](Binary-Search/koko-eating-bananas/)** - Binary search for optimization problems
+- **[Median of Two Sorted Arrays](Binary-Search/median-of-two-sorted-arrays/)** - Binary search approach to find median efficiently
 - **[Search in Rotated Sorted Array](Binary-Search/search-in-rotated-sorted-array/)** - Modified binary search for rotated arrays
 - **[Time Based Key-Value Store](Binary-Search/time-based-key-value-store/)** - Binary search for time-based data retrieval
 
@@ -85,6 +86,7 @@ The repository is organized into the following categories:
 - **[Balanced Binary Tree](Tree/balanced-binary-tree/)** - Tree balance validation
 - **[Binary Tree Level Order Traversal](Tree/binary-tree-level-order-traversal/)** - BFS approach for level-by-level tree traversal
 - **[Binary Tree Right Side View](Tree/binary-tree-right-side-view/)** - Modified BFS to view tree from right side
+- **[Construct Binary Tree from Preorder and Inorder Traversal](Tree/construct-binary-tree-from-preorder-and-inorder-traversal/)** - Tree reconstruction from traversals
 - **[Count Good Nodes in Binary Tree](Tree/count-good-nodes-in-binary-tree/)** - DFS with path maximum tracking
 - **[Diameter of Binary Tree](Tree/diameter-of-binary-tree/)** - Maximum path length calculation
 - **[Invert Binary Tree](Tree/invert-binary-tree/)** - Tree mirroring operation
@@ -210,12 +212,12 @@ go build main.go
 | Arrays          | 17    | Two Sum II, Three Sum, Valid Sudoku, Trapping Rain Water        |
 | Two Pointers    | 2     | Container With Most Water, Find the Duplicate Number            |
 | Hash Tables     | 2     | Two Sum, Substrings of Size Three                               |
-| Binary Search   | 5     | Binary Search, Koko Eating Bananas, Time-Based Key-Value Store  |
+| Binary Search   | 6     | Binary Search, Median of Two Sorted Arrays, Koko Eating Bananas |
 | Sliding Window  | 3     | Longest Substring, Permutation in String, Character Replacement |
 | Linked Lists    | 9     | Add Two Numbers, LRU Cache, Remove Nth Node, Reorder List       |
 | Stacks          | 4     | Car Fleet, Daily Temperatures, Evaluate RPN, Min Stack          |
 | Monotonic Stack | 2     | Final Prices With Discount, Largest Rectangle in Histogram      |
-| Trees           | 12    | Balanced Binary Tree, Good Nodes, Level Order Traversal         |
+| Trees           | 13    | Construct Binary Tree, Validate BST, Good Nodes                 |
 | Strings         | 4     | Generate Parentheses, Valid Palindrome, Valid Parentheses       |
 | Math            | 2     | GCD of Strings, Date to Binary                                  |
 | Matrix          | 2     | Valid Matrix Check, Search a 2D Matrix                          |
