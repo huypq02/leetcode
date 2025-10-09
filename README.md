@@ -101,6 +101,7 @@ The repository is organized into the following categories:
 
 - **[Longest Repeating Character Replacement](Sliding-Window/longest-repeating-character-replacement/)** - Sliding window with character frequency counting
 - **[Longest Substring Without Repeating Characters](Sliding-Window/longest-substring-without-repeating-characters/)** - Dynamic sliding window technique
+- **[Maximum Average Subarray I](Sliding-Window/maximum-average-subarray-i/)** - Fixed-size sliding window with running sum
 - **[Minimum Window Substring](Sliding-Window/minimum-window-substring/)** - Variable-size sliding window optimization
 - **[Permutation in String](Sliding-Window/permutation-in-string/)** - Fixed-size sliding window with pattern matching
 
@@ -208,20 +209,20 @@ go build main.go
 
 ## 📊 Problem Categories by Data Structure
 
-| Data Structure  | Count | Examples                                                           |
-| --------------- | ----- | ------------------------------------------------------------------ |
-| Arrays          | 17    | Two Sum II, Three Sum, Valid Sudoku, Trapping Rain Water           |
-| Two Pointers    | 2     | Container With Most Water, Find the Duplicate Number               |
-| Hash Tables     | 2     | Two Sum, Substrings of Size Three                                  |
-| Binary Search   | 6     | Binary Search, Median of Two Sorted Arrays, Koko Eating Bananas    |
-| Sliding Window  | 4     | Longest Substring, Minimum Window Substring, Character Replacement |
-| Linked Lists    | 9     | Add Two Numbers, LRU Cache, Remove Nth Node, Reorder List          |
-| Stacks          | 4     | Car Fleet, Daily Temperatures, Evaluate RPN, Min Stack             |
-| Monotonic Stack | 2     | Final Prices With Discount, Largest Rectangle in Histogram         |
-| Trees           | 13    | Construct Binary Tree, Validate BST, Good Nodes                    |
-| Strings         | 4     | Generate Parentheses, Valid Palindrome, Valid Parentheses          |
-| Math            | 2     | GCD of Strings, Date to Binary                                     |
-| Matrix          | 2     | Valid Matrix Check, Search a 2D Matrix                             |
+| Data Structure  | Count | Examples                                                                  |
+| --------------- | ----- | ------------------------------------------------------------------------- |
+| Arrays          | 17    | Two Sum II, Three Sum, Valid Sudoku, Trapping Rain Water                  |
+| Two Pointers    | 2     | Container With Most Water, Find the Duplicate Number                      |
+| Hash Tables     | 2     | Two Sum, Substrings of Size Three                                         |
+| Binary Search   | 6     | Binary Search, Median of Two Sorted Arrays, Koko Eating Bananas           |
+| Sliding Window  | 5     | Maximum Average Subarray, Minimum Window Substring, Character Replacement |
+| Linked Lists    | 9     | Add Two Numbers, LRU Cache, Remove Nth Node, Reorder List                 |
+| Stacks          | 4     | Car Fleet, Daily Temperatures, Evaluate RPN, Min Stack                    |
+| Monotonic Stack | 2     | Final Prices With Discount, Largest Rectangle in Histogram                |
+| Trees           | 13    | Construct Binary Tree, Validate BST, Good Nodes                           |
+| Strings         | 4     | Generate Parentheses, Valid Palindrome, Valid Parentheses                 |
+| Math            | 2     | GCD of Strings, Date to Binary                                            |
+| Matrix          | 2     | Valid Matrix Check, Search a 2D Matrix                                    |
 
 ## 🎯 Algorithm Patterns
 
