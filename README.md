@@ -99,6 +99,7 @@ The repository is organized into the following categories:
 
 ### 🔍 Sliding Window
 
+- **[Find the K-Beauty of a Number](Sliding-Window/find-the-k-beauty-of-a-number/)** - Fixed-size sliding window over digits
 - **[Longest Nice Substring](Sliding-Window/longest-nice-substring/)** - Recursive sliding window for substring property validation
 - **[Longest Repeating Character Replacement](Sliding-Window/longest-repeating-character-replacement/)** - Sliding window with character frequency counting
 - **[Longest Substring Without Repeating Characters](Sliding-Window/longest-substring-without-repeating-characters/)** - Dynamic sliding window technique
@@ -217,7 +218,7 @@ go build main.go
 | Two Pointers    | 2     | Container With Most Water, Find the Duplicate Number                      |
 | Hash Tables     | 2     | Two Sum, Substrings of Size Three                                         |
 | Binary Search   | 6     | Binary Search, Median of Two Sorted Arrays, Koko Eating Bananas           |
-| Sliding Window  | 7     | Longest Nice Substring, Min Difference K Scores, Maximum Average Subarray |
+| Sliding Window  | 8     | K-Beauty of Number, Longest Nice Substring, Min Difference K Scores       |
 | Linked Lists    | 9     | Add Two Numbers, LRU Cache, Remove Nth Node, Reorder List                 |
 | Stacks          | 4     | Car Fleet, Daily Temperatures, Evaluate RPN, Min Stack                    |
 | Monotonic Stack | 2     | Final Prices With Discount, Largest Rectangle in Histogram                |
