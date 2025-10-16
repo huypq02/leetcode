@@ -1,11 +1,7 @@
 package main
 
 func strStr(haystack string, needle string) int {
-	// Special case: if haystack and needle are the same and have equal length, return 0
-	if len(haystack) == len(needle) && haystack == needle {
-		return 0
-	}
-	// For each possible starting index, check if the substring matches needle
+	// Check each possible starting index in haystack for a substring matching needle
 	left := 0
 	for right := len(needle); right <= len(haystack); right++ {
 
