@@ -1,7 +1,7 @@
 package main
 
 func strStr(haystack string, needle string) int {
-	// For each possible starting index, check if the substring matches needle
+	// Check each possible starting index in haystack for a substring matching needle
 	left := 0
 	for right := len(needle); right <= len(haystack); right++ {
 
