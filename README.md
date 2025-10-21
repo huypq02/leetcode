@@ -115,6 +115,7 @@ The repository is organized into the following categories:
 - **[Find the Duplicate Number](Two-Pointers/find-the-duplicate-number/)** - Floyd's cycle detection in array form
 - **[Find the Index of the First Occurrence in a String](Two-Pointers/find-the-index-of-the-first-occurrence-in-a-string/)** - String matching with two pointers
 - **[Happy Number](Two-Pointers/happy-number/)** - Floyd's cycle detection for number sequences
+- **[Intersection of Two Arrays](Two-Pointers/intersection-of-two-arrays/)** - Finding common elements between arrays
 - **[Move Zeroes](Two-Pointers/move-zeroes/)** - In-place array rearrangement with two pointers
 - **[Remove Duplicates from Sorted Array](Two-Pointers/remove-duplicates-from-sorted-array/)** - In-place array modification with two pointers
 - **[Remove Element](Two-Pointers/remove-element/)** - In-place removal with two-pointer approach
@@ -220,20 +221,20 @@ go build main.go
 
 ## 📊 Problem Categories by Data Structure
 
-| Data Structure  | Count | Examples                                                                                                                                                                    |
-| --------------- | ----- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Arrays          | 17    | Two Sum II, Three Sum, Valid Sudoku, Trapping Rain Water                                                                                                                    |
-| Two Pointers    | 9     | Remove Element, Remove Duplicates, Container With Most Water, Find the Index of the First Occurrence in a String, Happy Number, Move Zeroes, Reverse String, Reverse Vowels |
-| Hash Tables     | 2     | Two Sum, Substrings of Size Three                                                                                                                                           |
-| Binary Search   | 6     | Binary Search, Median of Two Sorted Arrays, Koko Eating Bananas                                                                                                             |
-| Sliding Window  | 8     | K-Beauty of Number, Longest Nice Substring, Min Difference K Scores                                                                                                         |
-| Linked Lists    | 9     | Add Two Numbers, LRU Cache, Remove Nth Node, Reorder List                                                                                                                   |
-| Stacks          | 4     | Car Fleet, Daily Temperatures, Evaluate RPN, Min Stack                                                                                                                      |
-| Monotonic Stack | 3     | Next Greater Element I, Final Prices With Discount, Largest Rectangle                                                                                                       |
-| Trees           | 13    | Construct Binary Tree, Validate BST, Good Nodes                                                                                                                             |
-| Strings         | 4     | Generate Parentheses, Valid Palindrome, Valid Parentheses                                                                                                                   |
-| Math            | 2     | GCD of Strings, Date to Binary                                                                                                                                              |
-| Matrix          | 2     | Valid Matrix Check, Search a 2D Matrix                                                                                                                                      |
+| Data Structure  | Count | Examples                                                                                                                                                                                                |
+| --------------- | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Arrays          | 17    | Two Sum II, Three Sum, Valid Sudoku, Trapping Rain Water                                                                                                                                                |
+| Two Pointers    | 10    | Remove Element, Remove Duplicates, Container With Most Water, Find the Index of the First Occurrence in a String, Happy Number, Move Zeroes, Reverse String, Reverse Vowels, Intersection of Two Arrays |
+| Hash Tables     | 2     | Two Sum, Substrings of Size Three                                                                                                                                                                       |
+| Binary Search   | 6     | Binary Search, Median of Two Sorted Arrays, Koko Eating Bananas                                                                                                                                         |
+| Sliding Window  | 8     | K-Beauty of Number, Longest Nice Substring, Min Difference K Scores                                                                                                                                     |
+| Linked Lists    | 9     | Add Two Numbers, LRU Cache, Remove Nth Node, Reorder List                                                                                                                                               |
+| Stacks          | 4     | Car Fleet, Daily Temperatures, Evaluate RPN, Min Stack                                                                                                                                                  |
+| Monotonic Stack | 3     | Next Greater Element I, Final Prices With Discount, Largest Rectangle                                                                                                                                   |
+| Trees           | 13    | Construct Binary Tree, Validate BST, Good Nodes                                                                                                                                                         |
+| Strings         | 4     | Generate Parentheses, Valid Palindrome, Valid Parentheses                                                                                                                                               |
+| Math            | 2     | GCD of Strings, Date to Binary                                                                                                                                                                          |
+| Matrix          | 2     | Valid Matrix Check, Search a 2D Matrix                                                                                                                                                                  |
 
 ## 🎯 Algorithm Patterns
 
