@@ -17,11 +17,16 @@ func reverseWords(s string) string {
 	runes := []rune(s)
 	start := 0
 	// Loop through each character
-	for end := 0; end < len(runes); end++ {
+	for end := 0; end <= len(runes); end++ {
 		// If end of word, reverse it
-		if end == len(runes)-1 || unicode.IsSpace(runes[end+1]) {
-			reverseRange(runes, start, end)
-			start = end + 2 // Move to next word
+		if end == len(runes) || unicode.IsSpace(runes[end]) {
+			reverseRange(runes, start, end-1)
+			start = end + 1 // Move to next word
+
+			// Skip consecutive spaces
+			for start < len(runes) && unicode.IsSpace(runes[start]) {
+				start++
+			}
 		}
 	}
 
