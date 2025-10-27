@@ -1,7 +1,31 @@
 package main
 
+import (
+	"unicode"
+)
+
+func reverseRange(runes []rune, start, end int) {
+	for start < end {
+		// Swap characters at start and end
+		runes[start], runes[end] = runes[end], runes[start]
+		start++
+		end--
+	}
+}
+
 func reverseWords(s string) string {
-	return ""
+	runes := []rune(s)
+	start := 0
+	// Loop through each character
+	for end := 0; end < len(runes); end++ {
+		// If end of word, reverse it
+		if end == len(runes)-1 || unicode.IsSpace(runes[end+1]) {
+			reverseRange(runes, start, end)
+			start = end + 2 // Move to next word
+		}
+	}
+
+	return string(runes)
 }
 
 func main() {
