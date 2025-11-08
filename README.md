@@ -112,6 +112,7 @@ The repository is organized into the following categories:
 ### ↔️ Two Pointers
 
 - **[Assign Cookies](Two-Pointers/assign-cookies/)** - Greedy assignment using two pointers
+- **[Check If N and Its Double Exist](Two-Pointers/check-if-n-and-its-double-exist/)** - Finding pairs where one number is double of another using two pointers
 - **[Container With Most Water](Two-Pointers/container-with-most-water/)** - Two-pointer technique for maximum area between lines
 - **[Count Binary Substrings](Two-Pointers/count-binary-substrings/)** - Counting consecutive groups with two pointers
 - **[DI String Match](Two-Pointers/di-string-match/)** - Constructing permutation based on increase/decrease pattern using two pointers
