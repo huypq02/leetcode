@@ -1,8 +1,40 @@
 package main
 
+// binarySearch performs binary search on a sorted array to find the target value
+// Returns the target if found, otherwise returns -1
+func binarySearch(nums []int, target int) int {
+	// Initialize left and right pointers for binary search
+	left, right := 0, len(nums)
+	for left < right {
+		// Calculate mid to avoid overflow
+		mid := left + (right-left)/2
+		if nums[mid] == target {
+			// Target found, return it
+			return nums[mid]
+		} else if nums[mid] < target {
+			// Target is in the right half
+			left = mid + 1
+		} else {
+			// Target is in the left half
+			right = mid
+		}
+	}
+	// Target not found
+	return -1
+}
+
+// getCommon finds the minimum common value between two sorted arrays
+// Approach: Iterate through nums1 and use binary search to check if each element exists in nums2
 func getCommon(nums1 []int, nums2 []int) int {
-	// TODO: Implement my solution here to solve the exercise
-	return 0
+	// Iterate through each element in nums1 (in ascending order due to sorted array)
+	for _, v := range nums1 {
+		// Use binary search to check if current element exists in nums2
+		if binarySearch(nums2, v) != -1 {
+			return v
+		}
+	}
+	// No common element found
+	return -1
 }
 
 func main() {
