@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func incremovableSubarrayCount(nums []int) int {
-	// TODO: implement the solution to solve the exercise here
+	
 	return 0
 }
 
